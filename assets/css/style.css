@@ -478,7 +478,58 @@ section.lastest-blog-section  {
     }
 }
 }
-
+section.subcription-section{
+    .subscription-content{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .mail-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+    }
+    .input-mail-content {
+        width: 100%;
+         margin-top: 40px;
+        position: relative; 
+        display: flex;
+    input[type="email"] {
+    border: none;
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+   
+}
+button {
+       position: absolute;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0 18px;
+    font-size: 18px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+}
+    }
+}
+        img{
+            width: 100%;
+        }
+    }
+}
 @media (min-width:768px) {
     .container {
         width: 80%;
