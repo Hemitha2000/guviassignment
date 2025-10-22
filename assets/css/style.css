@@ -1,0 +1,504 @@
+:root {
+    --primary-color: #FA7436;
+    --text-color: #222222;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "Chiron Sung HK", serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+p {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.header-section,
+.banner-section {
+    background: #FEFCFB;
+}
+
+.banner-section {
+    padding-bottom: 70px;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0;
+}
+
+.menu-list {
+    ul {
+        display: flex;
+        padding: 0;
+        list-style: none;
+        gap: 20px;
+        margin: 0;
+
+        li {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.primary-button {
+    background: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+    /* box-shadow: 0 8px 16px #fa743659; */
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 20px;
+}
+
+.nav-quick-action {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    a {
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+
+    button {
+        box-shadow: 0 8px 16px #fa743659;
+    }
+}
+
+.banner-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 70px;
+
+    .banner-content {
+        h1 {
+
+            span {
+                color: var(--primary-color);
+            }
+        }
+
+        p {
+            font-size: 25px;
+            line-height: 2;
+            color: #a19c9c;
+            font-family: 'Poppins';
+        }
+
+        a {
+            font-family: 'Poppins';
+            background: #fff;
+            display: inline-block;
+            border: 2px solid #fa7436;
+            color: #fa7436;
+            padding: 20px 20px;
+            font-size: 24px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+    }
+
+    .banner-image {
+        position: relative;
+        right: -70px;
+    }
+}
+
+.export-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0px 0px 4px 2px #f2f2f2;
+
+    .select-wrapper {
+        font-family: 'Poppins';
+
+        p {
+            padding-top: 10px;
+            color: #aaa;
+        }
+
+        select {
+            border: none;
+            font-size: 20px;
+            text-transform: capitalize;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    i {
+        color: var(--primary-color);
+    }
+}
+
+section.things-to-do-section {
+    background: #F7F8FC;
+    padding: 70px 0;
+
+    .things-todo-card-parent {
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+
+        .todo-card {
+            /* background-repeat: no-repeat; */
+            /* background-size: 150%; */
+            /* background-position: center; */
+            padding: 50px;
+            background: #fff;
+            font-family: 'Poppins';
+            border: 2px solid #ececec;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #efefef;
+
+            /* &:nth-child(even){
+        background-image: url("../card2.png");
+    }
+    &:nth-child(odd){
+        background-image: url("../card1.png");
+    } */
+            h4 {
+                font-family: 'Poppins';
+                font-size: 24px;
+                font-weight: 600;
+                margin-top: 45px;
+            }
+
+            p {
+                color: #a09e9e;
+                font-size: 18px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+section.deal-discount-section {
+    padding: 50px 0;
+    background: #FEFCFB;
+
+    .card-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+        h5 {
+            font-size: 24px;
+            font-family: 'Poppins';
+            font-weight: 500;
+        }
+
+
+    }
+
+    .rating-sec {
+        i {
+            color: #f4f727;
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        span {
+            font-size: 20px;
+            color: #434343;
+        }
+    }
+
+    .card-details {
+        font-size: 18px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #aaa;
+
+        p {
+            color: #aaa;
+            font-size: 18px;
+
+            i {
+                margin-right: 8px;
+            }
+        }
+
+        .offer-details span {
+            background: #fff0ea;
+            border-radius: 5px;
+            padding: 2px 10px;
+            margin-left: 15px;
+            color: var(--primary-color);
+        }
+    }
+
+    .deal-card {
+        background: #ffff;
+        font-family: 'Poppins';
+        padding-bottom: 20px;
+        border: 3px solid #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 10px;
+
+
+
+    }
+}
+
+
+
+.section-basic {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+
+        span {
+            color: var(--primary-color);
+        }
+
+    }
+
+    img {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 18px;
+        color: #aaa;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+section.deal-discount-section.vacation-section {
+    .cost-details {
+        color: var(--primary-color);
+        font-size: 20px;
+        font-weight: 600;
+    }
+     p {
+            i {
+                color: var(--primary-color);
+            }
+        }
+
+}
+/* splider css */
+.deals-discount-content {
+    padding: 50px 0;
+    padding-bottom: 0;
+    div#image-carousel {
+        display: flex;
+        flex-direction: column-reverse;
+        .splide__arrows {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+    }
+    div#vacantion-carousel{
+            .splide__arrows {
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+}
+    }
+    .splide__track {
+        padding-bottom: 30px;
+    }
+
+    .splide__arrow {
+        /* bottom: -80px; */
+        /* top: unset; */
+        background: #fff;
+        border: 1px solid #aaa;
+        width: 40px;
+        height: 40px;
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 700;
+        font-size: 24px;
+        position: unset;
+        color: #aaa;
+
+        &:hover {
+            background-color: var(--primary-color);
+            color: #fff;
+            border: 1px solid;
+        }
+    }
+
+    .splide__arrow--next {
+        right: unset;
+
+        &:after {
+            content: '\f061';
+        }
+    }
+
+    .splide__arrow--prev {
+        left: unset;
+
+        &:after {
+            content: '\f060';
+        }
+    }
+
+    .splide__arrow svg {
+        display: none;
+    }
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+section.deal-discount-section.testimonial-section {
+    background: #f3f3f3;
+
+.testimonial-parent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+        position: relative;
+        .testimonial-slider {
+.deal-card{ 
+    border: none;
+    
+    .card-title{
+         display: block;
+        padding: 30px 50px;
+        .testimonial-details {
+    margin-top: 40px;
+
+        span{
+            color: #666;
+        }
+        h5{
+                font-size: 20px;    
+        }
+    }
+    }
+    
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: 32px;
+        }
+} 
+}
+.splide__slide{
+    padding: 70px 0px 0px 70px;
+}
+    .splide{
+        position:unset;
+        .splide__arrows {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    gap: 40px;
+}
+    }
+    .section-basic{
+        width: 50%;
+        h2,p{
+            text-align: left;
+            width: auto;
+        }
+    }
+}
+}
+.testimonial-slider.deals-discount-content {
+    width: 50%;
+}
+section.lastest-blog-section  {
+.splide__pagination__page.is-active{
+    background-color: var(--primary-color);
+}
+.deal-card{
+    border: none;
+    background: transparent;
+    img{
+        border-radius: 0 0 10px 10px;
+    }
+    p{
+            margin-top: 20px;
+    }
+    span{
+        color: #666;
+    }
+}
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 64px;
+    }
+}
+
+@media (min-width: 1920px) {
+    h1 {
+        font-size: 75px;
+    }
+}

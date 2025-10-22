@@ -1,13 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Document</title>
 </head>
+
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
+    <section class="header-section">
+        <div class="container">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <img src="assets/Logo.png" width="150" alt="site logo">
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Tour</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="nav-quick-action">
+                    <a>Login</a>
+                    <button class="primary-button">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner-part">
+                <div class="banner-content">
+                    <h1>Get Started your existing <span>journey</span> with us.</h1>
+                    <p>A Team of experienced tourism professionals will provide you with the best advice and tips for
+                        your desire place.</p>
+                    <a href="#">Discover Now</a>
+                </div>
+                <div class="banner-image">
+                    <img src="assets/banner.png" width="900" alt="banner">
+                </div>
+            </div>
+            <div class="export-section">
+                <div class="select-wrapper">
+                    <select name="select1" id="select1">
+                        <option value="option1">Location</option>
+                        <option value="option2">option2</option>
+                        <option value="option1">option3</option>
+                        <option value="option1">option3</option>
+                    </select>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <p>Where are you going</p>
+                </div>
+                <div class="select-wrapper">
+                    <select name="select2" id="select2">
+                        <option value="option1">Date</option>
+                        <option value="option2">option2</option>
+                        <option value="option1">option3</option>
+                        <option value="option1">option3</option>
+                    </select>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <p>When you will go</p>
+                </div>
+                <div class="select-wrapper">
+                    <select name="select4" id="select3">
+                        <option value="option1">Guest</option>
+                        <option value="option2">option2</option>
+                        <option value="option1">option3</option>
+                        <option value="option1">option3</option>
+                    </select>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <p>Number of guest</p>
+                </div>
+                <button class="primary-button">Explore Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="things-to-do-section">
+        <div class="container">
+            <div class="section-basic">
+                <h2>Things you need <span>to do</span></h2>
+                <p>We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
+                <img src="assets/Element.png" alt="Elements">
+            </div>
+            <div class="things-todo-card-parent">
+                <div class="todo-card">
+                    <img src="assets/card-icon1.png" alt="">
+                    <h4>Sign Up</h4>
+                    <p>Completes all the work associated with planning and processing</p>
+                </div>
+                <div class="todo-card">
+                    <img src="assets/card-icon2.png" alt="">
+                    <h4>Worth of Money</h4>
+                    <p>After successful access then book from exclusive deals & pricing</p>
+                </div>
+                <div class="todo-card">
+                    <img src="assets/card-icon3.png" alt="">
+                    <h4>Exciting Travel</h4>
+                    <p>Start and explore a wide range of exciting travel experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deal-discount-section">
+        <div class="container">
+            <div class="section-basic">
+                <h2>Exclusive <span>deals & discounts</span></h2>
+                <p>Discover our fantastic early booking discounts & start planning your journey.</p>
+            </div>
+            <div class="deals-discount-content">
+                <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Madrid</h5>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-dot"></i>Spain</p>
+                                        <div class="offer-details"><strike>$950</strike><span>$850</span></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deal-discount-section vacation-section">
+        <div class="container">
+            <div class="section-basic">
+                <h2>Best <span>vacation plan</span></h2>
+                <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!</p>
+                <img src="assets/Element.png" alt="Elements">
+            </div>
+            <div class="deals-discount-content">
+                <div id="vacantion-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <h5>Rome, Italy</h5>
+                                        <div class="cost-details">$850K</div>
+                                    </div>
+                                    <div class="card-details">
+                                        <p><i class="fa-solid fa-location-arrow"></i>Spain</p>
+                                        <div class="rating-sec">
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deal-discount-section testimonial-section">
+        <div class="container">
+            <div class="testimonial-parent">
+                <div class="section-basic">
+                    <h2>What people say <span>about us.</span></h2>
+                    <p>Discover our fantastic early booking discounts & start planning your journey.</p>
+                </div> 
+                <div class="testimonial-slider deals-discount-content">
+                    <div id="testimonial-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <p><q>Sample content refers to a diverse range of written, visual, or multimedia materials created for marketing, informational, or entertainment purposes, including examples like blog posts, social media updates, case studies, infographics, videos, and e-books...</q></p>
+                                        
+                                        <div class="testimonial-details">
+                                            <h5>Mike taylor</h5>
+                                            <span>Lahore, Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <p><q>Sample content refers to a diverse range of written, visual, or multimedia materials created for marketing, informational, or entertainment purposes, including examples like blog posts, social media updates, case studies, infographics, videos, and e-books...</q></p>
+                                        
+                                        <div class="testimonial-details">
+                                            <h5>Mike taylor</h5>
+                                            <span>Lahore, Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <p><q>Sample content refers to a diverse range of written, visual, or multimedia materials created for marketing, informational, or entertainment purposes, including examples like blog posts, social media updates, case studies, infographics, videos, and e-books...</q></p>
+                                        
+                                        <div class="testimonial-details">
+                                            <h5>Mike taylor</h5>
+                                            <span>Lahore, Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt="">
+                                    <div class="card-title">
+                                        <p><q>Sample content refers to a diverse range of written, visual, or multimedia materials created for marketing, informational, or entertainment purposes, including examples like blog posts, social media updates, case studies, infographics, videos, and e-books...</q></p>
+                                        
+                                        <div class="testimonial-details">
+                                            <h5>Mike taylor</h5>
+                                            <span>Lahore, Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>  
+            </div>  
+        </div>
+    </section>
+    <section class="deal-discount-section lastest-blog-section">
+        <div class="container">
+            <div class="section-basic">
+                <h2>Get update with <span>lastest blog</span></h2>
+            </div>
+            <div class="deals-discount-content">
+                <div id="blog-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="deal-card">
+                                    <img src="assets/deal1.png" alt=""> 
+                                        <p>Sample content refers to a diverse range of written, visual, or multimedia materials created...</p>
+                                        <span>July 27,2025</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        new Splide('#image-carousel', {
+            perPage: 4,
+            rewind: true,
+            pagination: false,
+            breakpoints: {
+                640: {
+                    perPage: 1,
+                },
+            },
+        }).mount();
+        new Splide('#vacantion-carousel', {
+            perPage: 3,
+            rewind: true,
+            pagination: false,
+            breakpoints: {
+                640: {
+                    perPage: 1,
+                },
+            },
+        }).mount();
+        new Splide('#testimonial-carousel', {
+            perPage: 1,
+            rewind: true,
+            pagination: false,
+            breakpoints: {
+                640: {
+                    perPage: 1,
+                },
+            },  
+        }).mount();
+        new Splide('#blog-carousel', {
+            perPage: 4,
+            rewind: true,
+            pagination: true,
+             arrows: false, 
+            breakpoints: {
+                640: {
+                    perPage: 1,
+                },
+            },
+        }).mount();
+    });
+</script>
+
 </html>
